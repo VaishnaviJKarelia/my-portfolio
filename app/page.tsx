@@ -1,7 +1,7 @@
 // src/app/page.tsx
-'use client';
+import { portfolioData } from './data'; // This tells it to look in the same folder
 import { motion } from 'framer-motion';
-import { portfolioData } from './data';
+
 
 export default function Home() {
   // Animation settings for the whole page
